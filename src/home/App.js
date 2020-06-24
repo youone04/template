@@ -6,6 +6,7 @@ import About from '../containers/pages/about';
 import HalamanUtama from '../containers/pages/halaman_utama';
 import Kontak from '../containers/pages/kontak';
 import NavbarMobile from '../component/navbar-mobile';
+import { Footer } from '../component/atom';
 
 function App() {
   return (
@@ -15,24 +16,9 @@ function App() {
           <HalamanUtama />
           <About/>
           <Kontak />
+          <Footer />
           <NavbarMobile />
       </Fragment>
-  //   <div className="App">
-  //     <header className="App-header">
-  //       <img src={logo} className="App-logo" alt="logo" />
-  //       <p>
-  //         Edit <code>src/App.js</code> and save to reload.
-  //       </p>
-  //       <a
-  //         className="App-link"
-  //         href="https://reactjs.org"
-  //         target="_blank"
-  //         rel="noopener noreferrer"
-  //       >
-  //         Learn React
-  //       </a>
-  //     </header>
-  //   </div>
   );
 }
 export default App;
