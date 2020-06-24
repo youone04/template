@@ -4,6 +4,8 @@ import './App.css';
 import MenuNavbar from '../component/menu-bar';
 import About from '../containers/pages/about';
 import HalamanUtama from '../containers/pages/halaman_utama';
+import Kontak from '../containers/pages/kontak';
+import NavbarMobile from '../component/navbar-mobile';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
           <MenuNavbar/>
           <HalamanUtama />
           <About/>
+          <Kontak />
+          <NavbarMobile />
       </Fragment>
   //   <div className="App">
   //     <header className="App-header">
