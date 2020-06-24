@@ -2,12 +2,16 @@ import React ,{Fragment} from 'react';
 // import logo from '../logo.svg';
 import './App.css';
 import MenuNavbar from '../component/menu-bar';
+import About from '../containers/pages/about';
+import HalamanUtama from '../containers/pages/halaman_utama';
 
 function App() {
   return (
 
       <Fragment>
           <MenuNavbar/>
+          <HalamanUtama />
+          <About/>
       </Fragment>
   //   <div className="App">
   //     <header className="App-header">

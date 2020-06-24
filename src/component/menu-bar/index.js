@@ -1,7 +1,7 @@
 import React, {Component,Fragment} from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import './menuBar.css';
-// import gambarPortopolio from "../../assets/gambar1.png";
+import gambarPortopolio from "../../assets/gambar1.png";
 class MenuNavbar extends Component {
 
     scrollTop = () => {
@@ -12,7 +12,7 @@ class MenuNavbar extends Component {
             <Fragment>
                 <div className="navigation">
                         <div className="gambar-portopolio">
-                            {/* <img src={gambarPortopolio} alt="gambar portopolio" /> */}
+                            <img src={gambarPortopolio} alt="gambar portopolio" />
                         </div>
                         <p><b>Yudi Gunawan</b></p>
                     <div className="navbar">
