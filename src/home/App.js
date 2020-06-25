@@ -13,9 +13,9 @@ function App() {
 
       <Fragment>
           <MenuNavbar/>
-          <HalamanUtama />
-          <About/>
-          <Kontak />
+          <HalamanUtama /><br/><br/>
+          <About/><br/><br/>
+          <Kontak /><br/><br/>
           <Skills />
           <Footer />
           <NavbarMobile />
