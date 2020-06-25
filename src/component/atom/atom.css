@@ -5,7 +5,7 @@
     border-style: solid;
     border-color: black;
     float: left;
-    margin-left: 50px;
+    margin-left: 52px;
 }
 .about-mobile img{
     width: 40px;
@@ -14,7 +14,7 @@
     border-style: solid;
     border-color: white;
     float: left;
-    margin-left: 10px;
+    margin-left: 13px;
 }
 .kontak-mobile img{
     width: 40px;
@@ -23,7 +23,7 @@
     border-style: solid;
     border-color:white;
     float: left;
-    margin-left: 10px;
+    margin-left: 13px;
 }
 .skills-mobile img{
     width: 40px;
@@ -32,7 +32,7 @@
     border-style: solid;
     border-color:black;
     float: left;
-    margin-left: 10px;
+    margin-left: 14px;
 }
 footer{
     width: 100%; 
