@@ -18,6 +18,14 @@ class MenuNavbar extends Component {
                     <div className="navbar">
                         <Link
                             activeClass="active"
+                            to="skills"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >Skills</Link>
+                        <Link
+                            activeClass="active"
                             to="kontak"
                             spy={true}
                             smooth={true}

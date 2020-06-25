@@ -14,7 +14,7 @@
     border-style: solid;
     border-color: white;
     float: left;
-    margin-left: 60px;
+    margin-left: 10px;
 }
 .kontak-mobile img{
     width: 40px;
@@ -23,16 +23,25 @@
     border-style: solid;
     border-color:white;
     float: left;
-    margin-left: 70px;
+    margin-left: 10px;
+}
+.skills-mobile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color:black;
+    float: left;
+    margin-left: 10px;
 }
 footer{
     width: 100%; 
     clear: both;
     overflow: hidden;
     bottom: 0;
-    margin-top: 456px;
+    margin-top: 10px;
     margin-bottom: -500px;
-    padding-top: 2px;
+    /* padding-top: 2px; */
     color: white;
     background-color: #234B6D;
     text-align: center;
@@ -41,6 +50,6 @@ footer{
 }
 @media screen and (max-width:600px){
     footer{
-        margin-bottom: -450px;
+        margin-bottom: 54px;
     }
 }

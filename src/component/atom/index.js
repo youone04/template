@@ -43,3 +43,12 @@ export class Footer extends Component{
         )
     }
 }
+export class SkillsMobile extends Component{
+    render(){
+        return(
+            <div className="skills-mobile">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbGZMlkxS8u07XrDuVrCskGyohucUTIggZ9A&usqp=CAU" alt="mobile" />
+            </div>
+        )
+    }
+}
