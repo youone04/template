@@ -7,10 +7,8 @@ import Kontak from '../containers/pages/kontak';
 import NavbarMobile from '../component/navbar-mobile';
 import { Footer } from '../component/atom';
 import Skills from '../containers/pages/skills';
-
 function App() {
   return (
-
       <Fragment>
           <MenuNavbar/>
           <HalamanUtama /><br/><br/>
